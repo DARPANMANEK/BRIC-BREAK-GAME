@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  width: 100vw;
+  height: 50vh;
+  background-color: rgb(203, 123, 219);
+  
+}
+
+section{
+
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+#gameScreen {
+  border: 5px solid black;
+  background-image: url(background.png);
+  
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  display: none;
+}
+
+
